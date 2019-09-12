@@ -1,0 +1,33 @@
+{
+  "name": "@vta/eslint-config",
+  "version": "1.0.0",
+  "description": "base eslint config",
+  "engines": {
+    "node": ">= 12.6.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vta-js/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vta-js/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vta-js/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "vta@yhbit.net",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.14.0",
+    "eslint-plugin-prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  }
+}

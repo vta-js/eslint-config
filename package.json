@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "eslint config set",
+  "engines": {
+    "node": ">= 12.6.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx",
+    "build": "npm run lint && node scripts/build.js",
+    "publish": "lerna publish --registry https://registry.npmjs.org",
+    "prepack": "node scripts/prepack",
+    "postpack": "node scripts/postpack",
+    "format": "prettier --write \"**/*.{js,ts,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vta-js/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vta-js/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vta-js/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "vta@yhbit.net",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "fs-extra": "^8.0.0"
+  }
+}

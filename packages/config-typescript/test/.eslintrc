@@ -1,0 +1,8 @@
+{
+  "extends": ["../index.js"],
+  "parserOptions": {
+    "project": "./packages/config-typescript/test/tsconfig.json",
+    "tsconfigRootDir": "./",
+    "extraFileExtensions": []
+  }
+}
