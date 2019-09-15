@@ -31,7 +31,7 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.0.0",
+    "eslint": "^6.4.0",
     "prettier": "^1.18.0"
   },
   "dependencies": {
