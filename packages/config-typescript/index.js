@@ -7,8 +7,8 @@ const cwd = process.cwd();
 module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: fs.existsSync(path.resolve(cwd, "./tsconfig-lint.json"))
-      ? path.resolve(cwd, "./tsconfig-lint.json")
+    project: fs.existsSync(path.resolve(cwd, "./tsconfig.eslint.json"))
+      ? path.resolve(cwd, "./tsconfig.eslint.json")
       : path.resolve(cwd, "./tsconfig.json"),
     tsconfigRootDir: path.resolve(process.cwd(), "./"),
     extraFileExtensions: [],

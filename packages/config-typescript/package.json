@@ -1,7 +1,7 @@
 {
   "name": "@vta/eslint-config-typescript",
   "version": "1.0.0",
-  "description": "base eslint config",
+  "description": "eslint config for Typescript project",
   "engines": {
     "node": ">= 12.6.0"
   },
