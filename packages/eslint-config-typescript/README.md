@@ -1,4 +1,4 @@
-# @vta/eslint-config
+# @vta/eslint-config-typescript
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-typescript)
 
