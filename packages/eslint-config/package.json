@@ -22,7 +22,6 @@
   ],
   "author": "vta@yhbit.net",
   "license": "MIT",
-  "devDependencies": {},
   "dependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.0.0",
