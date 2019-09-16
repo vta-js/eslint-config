@@ -5,6 +5,9 @@
   "engines": {
     "node": ">= 12.6.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
