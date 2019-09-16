@@ -1,8 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types"; // eslint-disable-line
 
+export interface ButtonProps {
+  type?: "button" | "submit" | "reset";
+  block?: boolean;
+  children?: React.ReactNode;
+}
+
 /* eslint-disable react/button-has-type */
-const Button = ({ type, block, children }) => {
+const Button: React.FunctionComponent<ButtonProps> = ({ type, block, children }) => {
   const [state, setState] = React.useState();
 
   /* eslint-disable react-hooks/rules-of-hooks */

@@ -20,6 +20,8 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^16.9.0",
+    "@types/prop-types": "^15.6.0",
     "react": "^16.9.0",
     "prop-types": "^15.6.0"
   },
