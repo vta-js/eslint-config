@@ -1,8 +1,0 @@
-{
-  "extends": ["../index.js"],
-  "parserOptions": {
-    "project": "./packages/eslint-config-typescript/test/tsconfig.eslint.json",
-    "tsconfigRootDir": "./",
-    "extraFileExtensions": []
-  }
-}

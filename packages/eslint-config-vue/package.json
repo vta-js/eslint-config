@@ -1,7 +1,7 @@
 {
-  "name": "@vta/eslint-config",
+  "name": "@vta/eslint-config-vue",
   "version": "1.0.0",
-  "description": "eslint config for pure Javascript project",
+  "description": "eslint config for Vue project",
   "main": "index.js",
   "engines": {
     "node": ">= 12.6.0"
@@ -23,14 +23,16 @@
   ],
   "author": "vta@yhbit.net",
   "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.10"
+  },
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^22.14.0",
-    "eslint-plugin-prettier": "^3.0.0"
+    "@vta/eslint-config": "^1.0.0",
+    "eslint-plugin-vue": "^5.2.0",
+    "vue-eslint-parser": "^6.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^6.0.0",
+    "vue": "^2.6.10"
   }
 }

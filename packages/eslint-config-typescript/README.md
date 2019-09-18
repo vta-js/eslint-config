@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-typescript)
 
-A superset of [@vta/eslint-config](../eslint-config/README.md), add support for **Typescript** project, intergrated with [@typescript-eslint](https://typescript-eslint.io)
+A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **Typescript** project, intergrated with [@typescript-eslint](https://typescript-eslint.io)
 
 ## Install
 
@@ -18,7 +18,33 @@ yarn add @vta/eslint-config-typescript --dev
 }
 ```
 
-we will firstly search `tsconfig.eslint.json` in your working directory to use for `@typescript-eslint/parser`, if cann't find , will use `tsconfig.json`, [view detail](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration)
+we will firstly search `tsconfig.eslint.json` in your working directory to use for `@typescript-eslint/parser`, if cann't find , will use `tsconfig.json`, [view detail](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration).
+
+> if you want to eslint react/vue or others files,please add them to your tsconfig's include
+
+```json
+{
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx", "src/**/*.vue"],
+  "compilerOptions": {}
+}
+```
+
+> if you want to use one specific tsconfig file,please use like this in your .eslintrc.js
+
+```javascript
+const config = require("@vta/eslint-config-typescript");
+// if react project,please require and extends @vta/eslint-config-react/typescript
+// same as vue
+
+module.exports = {
+  extends: ["@vta/eslint-config-typescript"],
+  parserOptions: {
+    ...config.parserOptions,
+    project: "your tsconfig relative to working directory",
+  },
+};
+```
 
 ### jest support
 
