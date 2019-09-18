@@ -5,7 +5,7 @@ module.exports = {
   plugins: ["react-hooks"].concat(config.plugins),
   extends: config.extends
     .map(extend => (extend === "airbnb-base" ? "airbnb" : extend))
-    .concat("prettier/react"),
+    .concat(["prettier/react"]),
   settings: {
     "import/extensions": [".js", ".jsx"],
     "import/resolver": {

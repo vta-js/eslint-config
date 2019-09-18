@@ -10,12 +10,12 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx",
+    "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx,.vue",
     "build": "npm run lint && node scripts/build.js",
     "publish": "lerna publish --registry https://registry.npmjs.org",
     "prepack": "node scripts/prepack",
     "postpack": "node scripts/postpack",
-    "format": "prettier --write \"**/*.{js,ts,json}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\""
   },
   "repository": {
     "type": "git",
