@@ -1,6 +1,6 @@
 # @vta/eslint-config-vue
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config-react)
+![npm](https://img.shields.io/npm/v/@vta/eslint-config-vue)
 
 A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **Vue** project
 
@@ -24,7 +24,7 @@ In order to use prettier,please set **Script Initial Indent** and **Style Initia
 
 ### typescript support
 
-If you want to use `Typescript` to write your code, you should firstly install **@vta/eslint-config-typescript**, then extends `@vta/eslint-config-react/typescript` in your `.eslintrc` file. additional usage please see [@vta/eslint-config-typescript](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config-typescript/README.md).
+If you want to use `Typescript` to write your code, you should firstly install **@vta/eslint-config-typescript**, then extends `@vta/eslint-config-vue/typescript` in your `.eslintrc` file. additional usage please see [@vta/eslint-config-typescript](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config-typescript/README.md).
 
 ```bash
 yarn add @vta/eslint-config-typescript --dev
