@@ -1,6 +1,6 @@
 {
   "name": "@vta/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for Vue project",
   "main": "index.js",
   "engines": {
@@ -27,7 +27,7 @@
     "vue": "^2.6.10"
   },
   "dependencies": {
-    "@vta/eslint-config": "^1.0.0",
+    "@vta/eslint-config": "^1.0.1",
     "eslint-plugin-vue": "^5.2.0",
     "vue-eslint-parser": "^6.0.0"
   },

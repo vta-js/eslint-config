@@ -1,6 +1,6 @@
 {
   "name": "@vta/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for Typescript project",
   "main": "index.js",
   "engines": {
@@ -29,7 +29,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
-    "@vta/eslint-config": "^1.0.0"
+    "@vta/eslint-config": "^1.0.1"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
