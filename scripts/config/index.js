@@ -4,6 +4,11 @@ const cwd = process.cwd();
 
 module.exports = {
   copiedFilesPath: path.resolve(cwd, "./.cache/copied-files.json"),
-  packages: ["eslint-config", "eslint-config-typescript", "eslint-config-react"],
+  packages: [
+    "eslint-config",
+    "eslint-config-typescript",
+    "eslint-config-react",
+    "eslint-config-vue",
+  ],
   filesCopyToPackages: [".npmignore", "LICENSE"],
 };
