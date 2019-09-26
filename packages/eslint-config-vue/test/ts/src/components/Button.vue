@@ -11,6 +11,7 @@ import Icon, { getTimestamp } from "./Icon";
 import delay from "../utils/delay";
 
 console.log({ delay, getTimestamp });
+console.log(BigInt);
 
 const d = ""; // eslint-disable-line
 export default {

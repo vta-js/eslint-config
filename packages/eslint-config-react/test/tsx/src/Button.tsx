@@ -7,6 +7,8 @@ export interface ButtonProps {
   children?: React.ReactNode;
 }
 
+console.log(BigInt);
+
 /* eslint-disable react/button-has-type */
 const Button: React.FunctionComponent<ButtonProps> = ({ type, block, children }) => {
   const [state, setState] = React.useState();

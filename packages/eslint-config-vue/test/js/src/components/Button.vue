@@ -11,6 +11,7 @@ import Icon from "./Icon";
 import delay from "../utils/delay";
 
 console.log({ delay });
+console.log(BigInt);
 
 const d = ""; // eslint-disable-line
 export default {
