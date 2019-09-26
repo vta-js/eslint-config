@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types"; // eslint-disable-line
 
+console.log(BigInt);
+
 /* eslint-disable react/button-has-type */
 const Button = ({ type, block, children }) => {
   const [state, setState] = React.useState();
@@ -35,6 +37,8 @@ Button.defaultProps = {
   type: "button",
   block: false,
 };
+
+const d = ""; // eslint-disable-line
 
 export const getComp = () => import("./Icon");
 

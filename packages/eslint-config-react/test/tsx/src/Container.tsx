@@ -11,6 +11,10 @@ class Container extends React.Component {
   }
   /* eslint-enable class-methods-use-this */
 
+  setPSW = () => {
+    console.log("set psw");
+  };
+
   render() {
     return "container";
   }
