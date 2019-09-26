@@ -30,7 +30,7 @@ we will firstly search `tsconfig.eslint.json` in your working directory to use f
 }
 ```
 
-> if you want to use one specific tsconfig file,please use like this in your .eslintrc， React please extends ** @vta/eslint-config-react/typescript **, same as Vue extends ** @vta/eslint-config-vue/typescript **
+> if you want to use one specific tsconfig file,please use like this in your .eslintrc. React please extends **@vta/eslint-config-react/typescript**, same as Vue extends **@vta/eslint-config-vue/typescript**
 
 ```javascript
 module.exports = {
