@@ -15,7 +15,8 @@
     "publish": "lerna publish --registry https://registry.npmjs.org",
     "prepack": "node scripts/prepack",
     "postpack": "node scripts/postpack",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\"",
+    "install": "node scripts/install"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "prettier": "^1.18.0"
   },
   "dependencies": {
+    "chalk": "^2.4.0",
     "fs-extra": "^8.0.0"
   }
 }

@@ -20,6 +20,9 @@ export default {
     type: String,
     children: { type: String, default: "Click Me" },
   },
+  created() {
+    import("./Icon").then(comp => console.log({ comp }));
+  },
 };
 </script>
 
