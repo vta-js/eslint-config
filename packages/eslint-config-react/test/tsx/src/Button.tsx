@@ -42,4 +42,8 @@ Button.defaultProps = {
   block: false,
 };
 
+const d = ""; // eslint-disable-line
+
 export default Button;
+
+export const getComp = () => import("./Icon");

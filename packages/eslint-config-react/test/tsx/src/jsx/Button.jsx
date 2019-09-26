@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types"; // eslint-disable-line
 
+const d = ""; // eslint-disable-line
+
 /* eslint-disable react/button-has-type */
 const Button = ({ type, block, children }) => {
   const [state, setState] = React.useState();

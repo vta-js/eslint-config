@@ -12,6 +12,7 @@
     "publish": {
       "ignoreChanges": [
         "**/__tests__/",
+        "**/test/",
         "*.*ignore",
         "*.md"
       ],

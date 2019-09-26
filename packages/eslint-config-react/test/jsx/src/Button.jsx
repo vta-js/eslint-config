@@ -36,4 +36,6 @@ Button.defaultProps = {
   block: false,
 };
 
+export const getComp = () => import("./Icon");
+
 export default Button;

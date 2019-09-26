@@ -1,19 +1,12 @@
-const tsconfig = require("@vta/eslint-config-typescript/index"); // eslint-disable-line
-
 module.exports = {
-  ...tsconfig,
   parser: "vue-eslint-parser",
   parserOptions: {
-    ...tsconfig.parserOptions,
-    // blocked by https://github.com/typescript-eslint/typescript-eslint/issues/890
-    project: undefined,
     parser: "@typescript-eslint/parser",
-    ecmaFeatures: {
-      jsx: true,
-    },
+    // blocked by https://github.com/typescript-eslint/typescript-eslint/issues/890
+    project: null,
     extraFileExtensions: [".vue"],
   },
-  extends: tsconfig.extends.concat(["plugin:vue/recommended", "prettier/vue"]),
+  extends: ["./index", "@vta/eslint-config-typescript/typescript"],
   settings: {
     "import/extensions": [".js", ".ts", ".vue"],
     "import/resolver": {
@@ -22,15 +15,5 @@ module.exports = {
       },
     },
   },
-  rules: {
-    ...(tsconfig.rules || {}),
-    "vue/html-self-closing": [
-      "error",
-      {
-        html: {
-          void: "any",
-        },
-      },
-    ],
-  },
+  rules: {},
 };

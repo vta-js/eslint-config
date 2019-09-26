@@ -1,18 +1,5 @@
-const tsconfig = require("@vta/eslint-config-typescript"); // eslint-disable-line
-const config = require("./index");
-
 module.exports = {
-  ...tsconfig,
-  parserOptions: {
-    ...tsconfig.parserOptions,
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  plugins: ["react-hooks"].concat(tsconfig.plugins),
-  extends: config.extends.concat(
-    tsconfig.extends.filter(extend => extend !== "@vta/eslint-config"),
-  ),
+  extends: ["./index", "@vta/eslint-config-typescript/typescript"],
   settings: {
     "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
     "import/resolver": {
@@ -22,8 +9,6 @@ module.exports = {
     },
   },
   rules: {
-    ...(tsconfig.rules || {}),
-    ...(config.rules || {}),
     "react/jsx-filename-extension": ["error", { extensions: ["jsx", "tsx"] }],
   },
 };
