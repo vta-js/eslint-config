@@ -16,7 +16,8 @@
     "prepack": "node scripts/prepack",
     "postpack": "node scripts/postpack",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\"",
-    "install": "node scripts/install"
+    "install": "node scripts/install",
+    "dep-upgrade": "rimraf yarn.lock && lerna bootstrap --force-local"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.4.0",
-    "prettier": "^1.18.0"
+    "prettier": "^1.18.0",
+    "rimraf": "^3.0.0"
   },
   "dependencies": {
     "chalk": "^2.4.0",
