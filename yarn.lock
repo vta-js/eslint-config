@@ -176,13 +176,12 @@
     lodash.unescape "4.0.1"
     semver "^6.3.0"
 
-"@vta/format-npm-yarn-lock@^1.0.0":
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.5.tgz#a54da68a58f0200bad5e99d33396f627938acefc"
-  integrity sha1-pU2miljwIAutXpnTM5b2J5OKzvw=
+"@vta/format-npm-yarn-lock@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.6.tgz#89f4596011128273bf13bb50526df243d356c55b"
+  integrity sha1-ifRZYBESgnO/E7tQUm3yQ9NWxVs=
   dependencies:
     commander "^3.0.0"
-    cross-spawn "^7.0.0"
     fs-extra "^8.0.0"
 
 acorn-jsx@^5.0.0, acorn-jsx@^5.0.2:
@@ -373,15 +372,6 @@ cross-spawn@^6.0.5:
     nice-try "^1.0.4"
     path-key "^2.0.1"
     semver "^5.5.0"
-    shebang-command "^1.2.0"
-    which "^1.2.9"
-
-cross-spawn@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-7.0.0.tgz#21ef9470443262f33dba80b2705a91db959b2e03"
-  integrity sha1-Ie+UcEQyYvM9uoCycFqR25WbLgM=
-  dependencies:
-    path-key "^3.1.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
 
@@ -1278,11 +1268,6 @@ path-key@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/path-key/download/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
-
-path-key@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/path-key/download/path-key-3.1.0.tgz#99a10d870a803bdd5ee6f0470e58dfcd2f9a54d3"
-  integrity sha1-maENhwqAO91e5vBHDljfzS+aVNM=
 
 path-parse@^1.0.6:
   version "1.0.6"
