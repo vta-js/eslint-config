@@ -574,10 +574,10 @@ eslint-plugin-react-hooks@^2.0.0:
   resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-2.1.2.tgz#1358d2acb2c5e02b7e90c37e611ac258a488e3a7"
   integrity sha1-E1jSrLLF4Ct+kMN+YRrCWKSI46c=
 
-eslint-plugin-react@^7.12.0:
-  version "7.15.1"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-react/download/eslint-plugin-react-7.15.1.tgz#db5f8ed66c6ba46922518f08e1df9dac52ccaa49"
-  integrity sha1-21+O1mxrpGkiUY8I4d+drFLMqkk=
+eslint-plugin-react@^7.16.0:
+  version "7.16.0"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-react/download/eslint-plugin-react-7.16.0.tgz#9928e4f3e2122ed3ba6a5b56d0303ba3e41d8c09"
+  integrity sha1-mSjk8+ISLtO6altW0DA7o+QdjAk=
   dependencies:
     array-includes "^3.0.3"
     doctrine "^2.1.0"
