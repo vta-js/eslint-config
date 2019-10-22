@@ -33,7 +33,7 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
-    "@vta/format-npm-yarn-lock": "^1.0.0",
+    "@vta/format-npm-yarn-lock": "^1.0.8",
     "eslint": "^6.4.0",
     "prettier": "^1.18.0",
     "rimraf": "^3.0.0"
