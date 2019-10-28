@@ -17,6 +17,7 @@
     "postpack": "node scripts/postpack",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\"",
     "install": "vta-format-npm-yarn-lock",
+    "bootstrap": "lerna bootstrap --force-local",
     "dep-upgrade": "rimraf yarn.lock && lerna bootstrap --force-local"
   },
   "repository": {
