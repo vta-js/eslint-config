@@ -11,14 +11,36 @@
   ],
   "scripts": {
     "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx,.vue",
-    "build": "npm run lint && node scripts/build.js",
     "npm-publish": "lerna publish --registry https://registry.npmjs.org",
     "prepack": "node scripts/prepack",
     "postpack": "node scripts/postpack",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue,md}\"",
+    "pre-commit": "yarn lint-staged",
     "install": "vta-format-npm-yarn-lock",
     "bootstrap": "lerna bootstrap --force-local",
     "dep-upgrade": "rimraf yarn.lock && lerna bootstrap --force-local"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre-commit",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "prettier --write",
+      "eslint",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
   },
   "repository": {
     "type": "git",
@@ -34,8 +56,12 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
     "@vta/format-npm-yarn-lock": "^1.0.0",
     "eslint": "^6.6.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.4.0",
     "prettier": "^1.18.0",
     "rimraf": "^3.0.0"
   },
