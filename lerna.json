@@ -16,7 +16,7 @@
         "*.*ignore",
         "*.md"
       ],
-      "message": "chore(release): publish %v"
+      "message": "refactor(release): publish %v"
     }
   }
 }
