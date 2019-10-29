@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx,.vue",
-    "npm-publish": "lerna publish --registry https://registry.npmjs.org",
+    "npm-publish": "lerna publish --conventional-commits --registry https://registry.npmjs.org",
     "prepack": "node scripts/prepack",
     "postpack": "node scripts/postpack",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue,md}\"",

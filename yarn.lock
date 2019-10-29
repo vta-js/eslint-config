@@ -233,6 +233,15 @@
   dependencies:
     find-up "^4.0.0"
 
+"@commitlint/travis-cli@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.npm.taobao.org/@commitlint/travis-cli/download/@commitlint/travis-cli-8.2.0.tgz#ad916afee6c3cb4c120119e7acc6aca35a911cfe"
+  integrity sha1-rZFq/ubDy0wSARnnrMaso1qRHP4=
+  dependencies:
+    "@commitlint/cli" "^8.2.0"
+    babel-runtime "6.26.0"
+    execa "0.11.0"
+
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/@marionebl/sander/download/@marionebl/sander-0.6.1.tgz#1958965874f24bc51be48875feb50d642fc41f7b"
@@ -327,40 +336,40 @@
   resolved "https://registry.npm.taobao.org/@types/semver/download/@types/semver-6.2.0.tgz#d688d574400d96c5b0114968705366f431831e1a"
   integrity sha1-1ojVdEANlsWwEUlocFNm9DGDHho=
 
-"@typescript-eslint/eslint-plugin@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-2.5.0.tgz#101d96743ce3365b3223df73d641078c9b775903"
-  integrity sha1-EB2WdDzjNlsyI99z1kEHjJt3WQM=
+"@typescript-eslint/eslint-plugin@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-2.6.0.tgz#e82ed43fc4527b21bfe35c20a2d6e4ed49fc7957"
+  integrity sha1-6C7UP8RSeyG/41wgotbk7Un8eVc=
   dependencies:
-    "@typescript-eslint/experimental-utils" "2.5.0"
+    "@typescript-eslint/experimental-utils" "2.6.0"
     eslint-utils "^1.4.2"
     functional-red-black-tree "^1.0.1"
     regexpp "^2.0.1"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@2.5.0", "@typescript-eslint/experimental-utils@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-2.5.0.tgz#383a97ded9a7940e5053449f6d73995e782b8fb1"
-  integrity sha1-ODqX3tmnlA5QU0SfbXOZXngrj7E=
+"@typescript-eslint/experimental-utils@2.6.0", "@typescript-eslint/experimental-utils@^2.5.0":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-2.6.0.tgz#ed70bef72822bff54031ff0615fc888b9e2b6e8a"
+  integrity sha1-7XC+9ygiv/VAMf8GFfyIi54rboo=
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.5.0"
+    "@typescript-eslint/typescript-estree" "2.6.0"
     eslint-scope "^5.0.0"
 
-"@typescript-eslint/parser@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-2.5.0.tgz#858030ddd808fbbe88e03f42e5971efaccb8218a"
-  integrity sha1-hYAw3dgI+76I4D9C5Zce+sy4IYo=
+"@typescript-eslint/parser@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-2.6.0.tgz#5106295c6a7056287b4719e24aae8d6293d5af49"
+  integrity sha1-UQYpXGpwVih7RxniSq6NYpPVr0k=
   dependencies:
     "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "2.5.0"
-    "@typescript-eslint/typescript-estree" "2.5.0"
+    "@typescript-eslint/experimental-utils" "2.6.0"
+    "@typescript-eslint/typescript-estree" "2.6.0"
     eslint-visitor-keys "^1.1.0"
 
-"@typescript-eslint/typescript-estree@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-2.5.0.tgz#40ada624d6217ef092a3a79ed30d947ad4f212ce"
-  integrity sha1-QK2mJNYhfvCSo6ee0w2UetTyEs4=
+"@typescript-eslint/typescript-estree@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-2.6.0.tgz#d3e9d8e001492e2b9124c4d4bd4e7f03c0fd7254"
+  integrity sha1-0+nY4AFJLiuRJMTUvU5/A8D9clQ=
   dependencies:
     debug "^4.1.1"
     glob "^7.1.4"
@@ -542,7 +551,7 @@ babel-polyfill@6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-runtime@^6.23.0, babel-runtime@^6.26.0:
+babel-runtime@6.26.0, babel-runtime@^6.23.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -1029,9 +1038,9 @@ eslint-plugin-import@^2.18.0:
     resolve "^1.11.0"
 
 eslint-plugin-jest@^23.0.0:
-  version "23.0.0"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-23.0.0.tgz#cbf61109b503ca72cab86178ea9a42064b901b4e"
-  integrity sha1-y/YRCbUDynLKuGF46ppCBkuQG04=
+  version "23.0.2"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-23.0.2.tgz#54a59bfe77245186afe13711a297067aefefff0a"
+  integrity sha1-VKWb/nckUYav4TcRopcGeu/v/wo=
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
@@ -1215,6 +1224,19 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q=
+
+execa@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.npm.taobao.org/execa/download/execa-0.11.0.tgz#0b3c71daf9b9159c252a863cd981af1b4410d97a"
+  integrity sha1-Czxx2vm5FZwlKoY82YGvG0QQ2Xo=
+  dependencies:
+    cross-spawn "^6.0.0"
+    get-stream "^4.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
 
 execa@^1.0.0:
   version "1.0.0"
