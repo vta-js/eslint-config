@@ -15,4 +15,5 @@ install:
   - lerna bootstrap --force-local
 
 script:
+  - commitlint-travis
   - yarn run lint
