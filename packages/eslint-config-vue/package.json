@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@vta/eslint-config": "^1.1.0",
-    "eslint-plugin-vue": "^5.2.0",
-    "vue-eslint-parser": "^6.0.0"
+    "eslint-plugin-vue": "^6.0.0",
+    "vue-eslint-parser": "^7.0.0"
   },
   "peerDependencies": {
     "eslint": "^6.0.0",
