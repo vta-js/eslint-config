@@ -23,6 +23,7 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": ["error", { js: "never", json: "always" }],
     "no-console": "off",
   },
 };

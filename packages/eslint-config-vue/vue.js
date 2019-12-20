@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": ["error", { js: "never", vue: "never", json: "always" }],
     "vue/html-self-closing": [
       "error",
       {

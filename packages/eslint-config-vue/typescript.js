@@ -15,5 +15,7 @@ module.exports = {
       },
     },
   },
-  rules: {},
+  rules: {
+    "import/extensions": ["error", { js: "never", ts: "never", vue: "never", json: "always" }],
+  },
 };

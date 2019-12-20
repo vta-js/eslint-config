@@ -9,6 +9,10 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": [
+      "error",
+      { js: "never", jsx: "never", ts: "never", tsx: "never", json: "always" },
+    ],
     "react/jsx-filename-extension": ["error", { extensions: ["jsx", "tsx"] }],
   },
 };

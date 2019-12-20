@@ -27,6 +27,7 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": ["error", { js: "never", ts: "never", json: "always" }],
     "@typescript-eslint/explicit-function-return-type": "off",
   },
 };

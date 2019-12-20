@@ -15,6 +15,7 @@ module.exports = {
     },
   },
   rules: {
+    "import/extensions": ["error", { js: "never", jsx: "never", json: "always" }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
   },
