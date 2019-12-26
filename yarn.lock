@@ -1156,10 +1156,10 @@ eslint-plugin-react@^7.16.0:
     prop-types "^15.7.2"
     resolve "^1.13.1"
 
-eslint-plugin-vue@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-6.0.1.tgz#166d3eb24cf290f3ff24d44fe9fca496f3924fc2"
-  integrity sha1-Fm0+skzykPP/JNRP6fyklvOST8I=
+eslint-plugin-vue@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-6.0.2.tgz#3c72fe58c5b1c2f77badccc075b81cfc23fd50ba"
+  integrity sha1-PHL+WMWxwvd7rczAdbgc/CP9ULo=
   dependencies:
     vue-eslint-parser "^6.0.5"
 
