@@ -1089,10 +1089,10 @@ eslint-plugin-eslint-plugin@^2.1.0:
   resolved "https://registry.npm.taobao.org/eslint-plugin-eslint-plugin/download/eslint-plugin-eslint-plugin-2.1.0.tgz#a7a00f15a886957d855feacaafee264f039e62d5"
   integrity sha1-p6APFaiGlX2FX+rKr+4mTwOeYtU=
 
-eslint-plugin-import@^2.18.0:
-  version "2.19.1"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-import/download/eslint-plugin-import-2.19.1.tgz#5654e10b7839d064dd0d46cd1b88ec2133a11448"
-  integrity sha1-VlThC3g50GTdDUbNG4jsITOhFEg=
+eslint-plugin-import@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-import/download/eslint-plugin-import-2.20.0.tgz#d749a7263fb6c29980def8e960d380a6aa6aecaa"
+  integrity sha1-10mnJj+2wpmA3vjpYNOApqpq7Ko=
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
