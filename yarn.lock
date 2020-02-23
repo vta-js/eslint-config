@@ -1107,10 +1107,10 @@ eslint-plugin-import@^2.18.0:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-jest@^23.0.0:
-  version "23.2.0"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-23.2.0.tgz#72d9ac0421b9b6ef774bcf4783329c016ed7cd6a"
-  integrity sha1-ctmsBCG5tu93S89HgzKcAW7XzWo=
+eslint-plugin-jest@^23.8.0:
+  version "23.8.0"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-23.8.0.tgz#c978f959fa8395801742d13c5a3125a986d2661e"
+  integrity sha1-yXj5WfqDlYAXQtE8WjElqYbSZh4=
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
