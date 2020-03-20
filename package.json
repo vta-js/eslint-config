@@ -10,10 +10,9 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint packages scripts --ext .ts,.tsx,.js,.jsx,.vue",
-    "npm-publish": "lerna publish patch --conventional-commits --create-release github --registry https://registry.npmjs.org",
-    "prepack": "node scripts/prepack",
-    "postpack": "node scripts/postpack",
+    "lint": "eslint packages --ext .ts,.tsx,.js,.jsx,.vue",
+    "npm-publish": "vta build",
+    "npm-publish:force": "vta build --mono-force-publish pkg1,pkg2",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,vue,md}\"",
     "pre-commit": "yarn lint-staged",
     "install": "vta-format-npm-yarn-lock",
@@ -58,14 +57,13 @@
     "@commitlint/config-angular": "^8.2.0",
     "@commitlint/travis-cli": "^8.2.0",
     "@vta/format-npm-yarn-lock": "^1.0.0",
+    "@vta/plugin-monorepo": "^1.0.0",
     "eslint": "^6.8.0",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
     "prettier": "^1.18.0",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.0",
+    "vta": "^1.0.0"
   },
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "fs-extra": "^9.0.0"
-  }
+  "dependencies": {}
 }

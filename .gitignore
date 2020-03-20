@@ -2,5 +2,7 @@
 **/dist/
 **/coverage/
 **/.cache/
+packages/**/.npmignore
+packages/**/LICENSE
 !/packages/**/__snapshots__/dist/
 *-error.log
