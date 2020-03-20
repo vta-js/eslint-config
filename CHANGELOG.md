@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/vta-js/eslint-config/compare/v1.1.1...v1.1.2) (2020-03-20)
+
+### Features
+
+- **deps:** bump eslint/typescript/typescript-eslint ([2892911](https://github.com/vta-js/eslint-config/commit/2892911))
+- **publish:** use vta to publish packages ([0a362a3](https://github.com/vta-js/eslint-config/commit/0a362a3))
+
 ## [1.1.1](https://github.com/vta-js/eslint-config/compare/v1.1.0...v1.1.1) (2019-12-20)
 
 ### Bug Fixes
