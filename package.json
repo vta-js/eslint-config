@@ -29,12 +29,10 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": [
       "prettier --write",
-      "eslint",
-      "git add"
+      "eslint"
     ],
     "*.{json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "commitlint": {
