@@ -22,7 +22,7 @@ export default {
     children: { type: String, default: "Click Me" },
   },
   created() {
-    import("./Icon").then(comp => console.log({ comp }));
+    import("./Icon").then((comp) => console.log({ comp }));
   },
 };
 </script>
