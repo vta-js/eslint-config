@@ -11,10 +11,10 @@
     },
     "publish": {
       "ignoreChanges": [
-        "**/__tests__/",
-        "**/test/",
-        "*.*ignore",
-        "*.md"
+        "**/__tests__/**/*.*",
+        "**/test/**/*.*",
+        "**/*.*ignore",
+        "**/*.md"
       ],
       "message": "refactor(release): publish %v"
     }
