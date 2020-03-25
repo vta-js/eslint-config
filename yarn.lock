@@ -69,7 +69,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.0", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.0", "@babel/runtime@^7.8.0", "@babel/runtime@^7.8.7":
   version "7.9.2"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
   integrity sha1-2Q3wWDo6JS8JqqYZZlNnuuUY2wY=
@@ -362,27 +362,27 @@
     commander "^3.0.0"
     fs-extra "^8.0.0"
 
-"@vta/helpers@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/@vta/helpers/download/@vta/helpers-1.0.4.tgz#9c351a0817e3ffa4d883a91ff75afb2a2228265d"
-  integrity sha1-nDUaCBfj/6TYg6kf91r7KiIoJl0=
+"@vta/helpers@^1.0.4", "@vta/helpers@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/@vta/helpers/download/@vta/helpers-1.0.6.tgz#355ce1d7966b0b5644fcbb1a8fbb97b9df727691"
+  integrity sha1-NVzh15ZrC1ZE/Lsaj7uXud9ydpE=
   dependencies:
-    "@babel/runtime" "^7.7.0"
+    "@babel/runtime" "^7.8.0"
     chalk "^3.0.0"
-    core-js "^3.0.0"
+    core-js "^3.6.0"
     cross-spawn "^7.0.0"
-    fs-extra "^8.0.0"
+    fs-extra "^9.0.0"
 
-"@vta/plugin-monorepo@^1.0.0":
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/@vta/plugin-monorepo/download/@vta/plugin-monorepo-1.0.5.tgz#95ea6d1aef76132f0dff478c0ac51cb9d5949f03"
-  integrity sha1-leptGu92Ey8N/0eMCsUcudWUnwM=
+"@vta/plugin-monorepo@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/@vta/plugin-monorepo/download/@vta/plugin-monorepo-1.0.6.tgz#47130fec931a3b07ecc2289aa9e778a29ad9bb8d"
+  integrity sha1-RxMP7JMaOwfswiiaqed4oprZu40=
   dependencies:
-    "@babel/runtime" "^7.7.0"
-    "@vta/helpers" "^1.0.4"
+    "@babel/runtime" "^7.8.0"
+    "@vta/helpers" "^1.0.6"
     chalk "^3.0.0"
-    core-js "^3.0.0"
-    fs-extra "^8.0.0"
+    core-js "^3.6.0"
+    fs-extra "^9.0.0"
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -533,6 +533,11 @@ astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/astral-regex/download/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha1-bIw/uCfdQ+45GPJ7gngqt2WKb9k=
+
+at-least-node@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/at-least-node/download/at-least-node-1.0.0.tgz?cache=0&sync_timestamp=1584632229916&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fat-least-node%2Fdownload%2Fat-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
+  integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
 
 axobject-query@^2.0.2:
   version "2.1.2"
@@ -814,7 +819,7 @@ core-js@^2.4.0, core-js@^2.5.0:
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
 
-core-js@^3.0.0:
+core-js@^3.0.0, core-js@^3.6.0:
   version "3.6.4"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
   integrity sha1-RAqDU2tFgRS5yyrBWAujd9xHBkc=
@@ -1411,6 +1416,16 @@ fs-extra@^8.0.0:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-extra@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.npm.taobao.org/fs-extra/download/fs-extra-9.0.0.tgz?cache=0&sync_timestamp=1584632259308&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffs-extra%2Fdownload%2Ffs-extra-9.0.0.tgz#b6afc31036e247b2466dc99c29ae797d5d4580a3"
+  integrity sha1-tq/DEDbiR7JGbcmcKa55fV1FgKM=
+  dependencies:
+    at-least-node "^1.0.0"
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^1.0.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1824,6 +1839,15 @@ jsonfile@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/jsonfile/download/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonfile@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/jsonfile/download/jsonfile-6.0.1.tgz#98966cba214378c8c84b82e085907b40bf614179"
+  integrity sha1-mJZsuiFDeMjIS4LghZB7QL9hQXk=
+  dependencies:
+    universalify "^1.0.0"
   optionalDependencies:
     graceful-fs "^4.1.6"
 
@@ -3087,6 +3111,11 @@ universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.npm.taobao.org/universalify/download/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
+
+universalify@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/universalify/download/universalify-1.0.0.tgz?cache=0&sync_timestamp=1583531748881&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Funiversalify%2Fdownload%2Funiversalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
+  integrity sha1-thodoXPoQ1sv48Z9Kbmt+FlL0W0=
 
 uri-js@^4.2.2:
   version "4.2.2"
