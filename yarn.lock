@@ -1122,10 +1122,10 @@ eslint-plugin-prettier@^3.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@^2.0.0:
-  version "2.5.1"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-2.5.1.tgz#4ef5930592588ce171abeb26f400c7fbcbc23cd0"
-  integrity sha1-TvWTBZJYjOFxq+sm9ADH+8vCPNA=
+eslint-plugin-react-hooks@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-4.0.3.tgz#031e4bdc1e60cc3b04cc7d2dfc08773d5c0a2bec"
+  integrity sha1-Ax5L3B5gzDsEzH0t/Ah3PVwKK+w=
 
 eslint-plugin-react@^7.16.0:
   version "7.19.0"
