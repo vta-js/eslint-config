@@ -32,7 +32,7 @@
   "dependencies": {
     "@vta/eslint-config": "^1.1.2",
     "eslint-config-airbnb": "^18.0.0",
-    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.0.0"
