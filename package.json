@@ -61,7 +61,7 @@
     "eslint": "^6.8.0",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
-    "prettier": "^2.0.0",
+    "prettier": "^2.1.2",
     "rimraf": "^3.0.0",
     "vta": "^1.0.0"
   },
