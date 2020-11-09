@@ -1,29 +1,14 @@
 module.exports = {
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: false,
-    },
-  },
-  plugins: ["babel", "jest", "prettier"],
-  extends: ["airbnb-base", "plugin:jest/recommended", "plugin:prettier/recommended"],
+  parser: "@babel/eslint-parser",
   env: {
     browser: true,
     node: true,
-    es2020: true,
+    es2021: true,
   },
-  settings: {
-    "import/extensions": [".js"],
-    "import/resolver": {
-      node: {
-        extensions: [".js"],
-      },
-    },
-  },
+  plugins: ["@babel", "jest", "prettier"],
+  extends: ["airbnb-base", "plugin:jest/recommended", "prettier"],
   rules: {
-    "import/extensions": ["error", { js: "never", json: "always" }],
     "no-console": "off",
+    "prettier/prettier": "error",
   },
 };
