@@ -23,23 +23,15 @@
   ],
   "author": "vta@yhbit.net",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.12.0",
-    "@babel/eslint-plugin": "^7.12.0",
-    "@babel/preset-env": "^7.12.0",
-    "eslint-plugin-prettier": "^3.0.0"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "@babel/eslint-parser": "^7.12.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.14.0",
-    "eslint-plugin-import": "^2.20.0"
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.0.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.12.0",
-    "@babel/eslint-plugin": "^7.12.0",
     "eslint": "^7.12.0",
-    "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^2.0.0"
   }
 }

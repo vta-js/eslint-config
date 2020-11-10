@@ -1,14 +1,18 @@
-module.exports = {
-  parser: "@babel/eslint-parser",
+const registExtensions = require("./registExtensions");
+
+module.exports = registExtensions(["js"], {
+  parserOptions: {
+    ecmaVersion: 2021,
+  },
   env: {
     browser: true,
     node: true,
     es2021: true,
   },
-  plugins: ["@babel", "prettier"],
+  plugins: ["prettier"],
   extends: ["airbnb-base", "prettier"],
   rules: {
     "no-console": "off",
     "prettier/prettier": "error",
   },
-};
+});
