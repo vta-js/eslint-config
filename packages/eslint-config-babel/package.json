@@ -1,0 +1,38 @@
+{
+  "name": "@vta/eslint-config-babel",
+  "version": "1.1.2",
+  "description": "eslint config for pure Babel project",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 10.16.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vta-js/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vta-js/eslint-config/issues"
+  },
+  "homepage": "https://github.com/vta-js/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "vta@yhbit.net",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.0"
+  },
+  "dependencies": {
+    "@vta/eslint-config": "^1.1.2",
+    "@babel/core": "^7.12.0",
+    "@babel/eslint-parser": "^7.12.0",
+    "@babel/eslint-plugin": "^7.12.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.0"
+  }
+}
