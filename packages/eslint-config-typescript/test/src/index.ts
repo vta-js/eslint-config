@@ -1,7 +1,5 @@
-const d = ""; // eslint-disable-line
+import User from "./User";
 
-console.log(BigInt);
+const user = new User("001", "Jack");
 
-export default (): Promise<void> => {
-  return new Promise((resolve) => setTimeout(resolve, 3000));
-};
+user.sayHello();

@@ -12,22 +12,11 @@ module.exports = {
     tsconfigRootDir: path.resolve(process.cwd(), "./"),
     extraFileExtensions: [],
   },
-  plugins: ["@typescript-eslint"],
   extends: [
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "plugin:import/typescript",
     "prettier/@typescript-eslint",
   ],
-  settings: {
-    "import/extensions": [".js", ".ts"],
-    "import/resolver": {
-      node: {
-        extensions: [".js", ".ts"],
-      },
-    },
-  },
-  rules: {
-    "import/extensions": ["error", { js: "never", ts: "never", json: "always" }],
-    "@typescript-eslint/explicit-function-return-type": "off",
-  },
+  rules: {},
 };
