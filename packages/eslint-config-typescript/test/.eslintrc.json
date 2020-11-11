@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["../index"],
+  "extends": ["@vta/typescript"],
   "parserOptions": {
     "project": "packages/eslint-config-typescript/test/tsconfig.eslint.json"
   },
