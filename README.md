@@ -8,13 +8,13 @@ Eslint config set,intergrated with [Airbnb](https://github.com/airbnb/javascript
 
 Firstly install **Eslint >= 7.12.0**, then view the bellow usage table for your porject.
 
-| Project    | Usage                                                                          |
-| ---------- | ------------------------------------------------------------------------------ |
-| Javascript | [@vta/eslint-config](./packages/eslint-config/README.md)                       |
-| Babel      | [@vta/eslint-config-babel](./packages/eslint-config-babel/README.md)           |
-| Typescript | [@vta/eslint-config-typescript](./packages/eslint-config-typescript/README.md) |
-| React      | [@vta/eslint-config-react](./packages/eslint-config-react/README.md)           |
-| Vue        | [@vta/eslint-config-vue](./packages/eslint-config-vue/README.md)               |
-| Jest       | [@vta/eslint-config-jest](./packages/eslint-config-jest/README.md)             |
+| Project    | Version                                                            | Usage                                                                |
+| ---------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| Javascript | ![npm](https://img.shields.io/npm/v/@vta/eslint-config)            | [@vta/eslint-config](./packages/eslint-config)                       |
+| Babel      | ![npm](https://img.shields.io/npm/v/@vta/eslint-config-babel)      | [@vta/eslint-config-babel](./packages/eslint-config-babel)           |
+| Typescript | ![npm](https://img.shields.io/npm/v/@vta/eslint-config-typescript) | [@vta/eslint-config-typescript](./packages/eslint-config-typescript) |
+| React      | ![npm](https://img.shields.io/npm/v/@vta/eslint-config-react)      | [@vta/eslint-config-react](./packages/eslint-config-react)           |
+| Vue        | ![npm](https://img.shields.io/npm/v/@vta/eslint-config-vue)        | [@vta/eslint-config-vue](./packages/eslint-config-vue)               |
+| Jest       | ![npm](https://img.shields.io/npm/v/@vta/eslint-config-jest)       | [@vta/eslint-config-jest](./packages/eslint-config-jest)             |
 
 ## MIT License

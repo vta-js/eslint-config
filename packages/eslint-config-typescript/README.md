@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-typescript)
 
-A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **Typescript** project, intergrated with [@typescript-eslint](https://typescript-eslint.io)
+A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config), add support for **Typescript** project, intergrated with [@typescript-eslint](https://typescript-eslint.io)
 
 ## Install
 
