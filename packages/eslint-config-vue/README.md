@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-vue)
 
-an eslint config set working with [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **Vue** project
+An eslint config set working with [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **Vue** project
 
 ## Install
 
@@ -36,7 +36,7 @@ yarn add @vta/eslint-config-babel --dev
 }
 ```
 
-> NOTE: `@vta/vue` must list **after** `@vta/babel`
+NOTE: `@vta/vue` must list **after** `@vta/babel`
 
 ### Typescript Support
 
@@ -52,6 +52,6 @@ yarn add @vta/eslint-config-typescript --dev
 }
 ```
 
-> NOTE: `@vta/vue/typescript` must list **after** `@vta/typescript`
+NOTE: `@vta/vue/typescript` must list **after** `@vta/typescript`
 
 ### MIT License

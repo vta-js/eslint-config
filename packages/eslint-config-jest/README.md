@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-jest)
 
-a shareable eslint config for project using Jest to testing
+A shareable eslint config for project using Jest to testing
 
 ## Install
 
@@ -14,7 +14,7 @@ yarn add @vta/eslint-config-jest --dev
 
 ```json
 {
-  "extends": ["@vta/eslint-config-jest"]
+  "extends": ["@vta/jest"]
 }
 ```
 

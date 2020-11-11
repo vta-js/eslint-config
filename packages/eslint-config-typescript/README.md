@@ -18,7 +18,7 @@ yarn add @vta/eslint-config-typescript --dev
 }
 ```
 
-we will firstly search `tsconfig.eslint.json` in your working directory to use for `@typescript-eslint/parser`, if cann't find , will use `tsconfig.json`, [view detail](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration).
+We will firstly search `tsconfig.eslint.json` in your working directory to use for `@typescript-eslint/parser`, if cann't find , will use `tsconfig.json`, [view detail](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#configuration).
 
 > if you want to use one specific tsconfig file,please use like this in your .eslintrc.json
 
@@ -30,7 +30,7 @@ we will firstly search `tsconfig.eslint.json` in your working directory to use f
 }
 ```
 
-**all files that need to lint should list in your tsconfig file**. if you want to lint react/vue or others files,please add them to your tsconfig's include
+**All files that need to lint should list in your tsconfig file**. If you want to lint react/vue or others files,please add them to your tsconfig's include
 
 ```json
 {

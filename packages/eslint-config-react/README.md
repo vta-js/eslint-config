@@ -32,7 +32,7 @@ yarn add @vta/eslint-config-babel --dev
 }
 ```
 
-> NOTE: `@vta/react` must list **after** `@vta/babel`
+NOTE: `@vta/react` must list **after** `@vta/babel`
 
 ### Typescript Support
 
@@ -48,6 +48,6 @@ yarn add @vta/eslint-config-typescript --dev
 }
 ```
 
-> NOTE: `@vta/react/typescript` must list **after** `@vta/typescript`
+NOTE: `@vta/react/typescript` must list **after** `@vta/typescript`
 
 ### MIT License
