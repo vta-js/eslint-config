@@ -21,7 +21,7 @@ export default {
     type: String,
     children: { type: String, default: "Click Me" },
   },
-  created() {
+  created(): void {
     import("./Icon").then((comp) => console.log({ comp }));
   },
 };

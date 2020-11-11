@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "parserOptions": {
+    "babelOptions": {
+      "configFile": "./packages/eslint-config-react/test/jsx/babel.config.json"
+    }
+  },
+  "extends": ["@vta/babel", "@vta/vue"]
+}
