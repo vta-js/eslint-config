@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["@vta/typescript", "@vta/react/typescript"],
+  "parserOptions": {
+    "project": "packages/eslint-config-react/test/tsx/tsconfig.eslint.json"
+  },
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "shippedProposals": true
+      }
+    ],
+    ["@babel/react"]
+  ]
+}

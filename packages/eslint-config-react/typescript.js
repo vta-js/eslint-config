@@ -1,18 +1,13 @@
-module.exports = {
-  extends: ["./index", "@vta/eslint-config-typescript/typescript"],
-  settings: {
-    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
-    "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-      },
+const registExtensions = require("@vta/eslint-config/registExtensions");
+
+module.exports = registExtensions(["js", "jsx", "ts", "tsx"], {
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
   },
+  extends: ["./react"],
   rules: {
-    "import/extensions": [
-      "error",
-      { js: "never", jsx: "never", ts: "never", tsx: "never", json: "always" },
-    ],
     "react/jsx-filename-extension": ["error", { extensions: ["jsx", "tsx"] }],
   },
-};
+});

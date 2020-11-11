@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@vta/eslint-config-react)
 
-A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **React** project
+an eslint config set working with [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config/README.md), add support for **React** project
 
 ## Install
 
@@ -14,11 +14,27 @@ yarn add @vta/eslint-config-react --dev
 
 ```json
 {
-  "extends": ["@vta/eslint-config-react"]
+  "extends": ["@vta/react"]
 }
 ```
 
-### typescript support
+### Babel Support
+
+If you want to use `Babel` to compile your code, you should firstly install **@vta/eslint-config-babel**, then extends `@vta/babel` in your `.eslintrc` file. additional usage please see [@vta/eslint-config-babel](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config-babel/README.md).
+
+```bash
+yarn add @vta/eslint-config-babel --dev
+```
+
+```json
+{
+  "extends": ["@vta/babel", "@vta/react"]
+}
+```
+
+> NOTE: `@vta/react` must list **after** `@vta/babel`
+
+### Typescript Support
 
 If you want to use `Typescript` to write your code, you should firstly install **@vta/eslint-config-typescript**, then extends `@vta/eslint-config-react/typescript` in your `.eslintrc` file. additional usage please see [@vta/eslint-config-typescript](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config-typescript/README.md).
 
@@ -28,8 +44,10 @@ yarn add @vta/eslint-config-typescript --dev
 
 ```json
 {
-  "extends": ["@vta/eslint-config-react/typescript"]
+  "extends": ["@vta/typescript", "@vta/react/typescript"]
 }
 ```
+
+> NOTE: `@vta/react/typescript` must list **after** `@vta/typescript`
 
 ### MIT License

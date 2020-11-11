@@ -24,21 +24,25 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-react": "^7.12.0",
     "@types/prop-types": "^15.6.0",
     "@types/react": "^16.9.0",
+    "@vta/eslint-config-babel": "^1.1.2",
+    "@vta/eslint-config-typescript": "^1.1.2",
     "prop-types": "^15.6.0",
-    "react": "^16.10.0"
+    "react": "^17.0.0"
   },
   "dependencies": {
     "@vta/eslint-config": "^1.1.2",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.0.0"
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.4.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
-    "eslint": "^6.8.0",
-    "react": "^16.10.0"
+    "eslint": "^7.12.0",
+    "react": "^17.0.0"
   }
 }
