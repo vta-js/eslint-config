@@ -1,6 +1,6 @@
 # @vta/eslint-config-react
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config-react)
+[![npm](https://img.shields.io/npm/v/@vta/eslint-config-react)](https://www.npmjs.com/package/@vta/eslint-config-react)
 
 an eslint config set working with [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config), add support for **React** project
 

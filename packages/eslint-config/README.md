@@ -1,6 +1,6 @@
 # @vta/eslint-config
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config)
+[![npm](https://img.shields.io/npm/v/@vta/eslint-config)](https://www.npmjs.com/package/@vta/eslint-config)
 
 Eslint config for pure `Javascript/Node` project, intergrated with [Airbnb](https://github.com/airbnb/javascript), [Prettier](https://prettier.io/).
 

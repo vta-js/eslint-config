@@ -1,6 +1,6 @@
 # @vta/eslint-config-babel
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config-babel)
+[![npm](https://img.shields.io/npm/v/@vta/eslint-config-babel)](https://www.npmjs.com/package/@vta/eslint-config-babel)
 
 A superset of [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config), add support for **Babel** project, intergrated with [@babel/eslint-parser](https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser)
 

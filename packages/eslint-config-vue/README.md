@@ -1,6 +1,6 @@
 # @vta/eslint-config-vue
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config-vue)
+[![npm](https://img.shields.io/npm/v/@vta/eslint-config-vue)](https://www.npmjs.com/package/@vta/eslint-config-vue)
 
 An eslint config set working with [@vta/eslint-config](https://github.com/vta-js/eslint-config/tree/master/packages/eslint-config), add support for **Vue** project
 

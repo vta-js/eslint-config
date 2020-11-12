@@ -1,6 +1,6 @@
 # @vta/eslint-config-jest
 
-![npm](https://img.shields.io/npm/v/@vta/eslint-config-jest)
+[![npm](https://img.shields.io/npm/v/@vta/eslint-config-jest)](https://www.npmjs.com/package/@vta/eslint-config-jest)
 
 A shareable eslint config for project using Jest to testing
 
