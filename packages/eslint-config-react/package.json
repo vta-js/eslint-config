@@ -27,7 +27,7 @@
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-react": "^7.12.0",
     "@types/prop-types": "^15.6.0",
-    "@types/react": "^16.9.0",
+    "@types/react": "^17.0.0",
     "@vta/eslint-config-babel": "^2.0.0",
     "@vta/eslint-config-typescript": "^2.0.0",
     "prop-types": "^15.6.0",
