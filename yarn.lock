@@ -6261,10 +6261,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.0.0:
-  version "4.0.5"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
-  integrity sha1-rp3d/RBp8ctb6z7zshcN18EzI4k=
+typescript@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.4.tgz#f058636e2f4f83f94ddaae07b20fd5e14598432f"
+  integrity sha1-8Fhjbi9Pg/lN2q4Hsg/V4UWYQy8=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
