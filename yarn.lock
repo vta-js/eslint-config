@@ -2754,10 +2754,10 @@ eslint-plugin-import@^2.20.0, eslint-plugin-import@^2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.0.0:
-  version "24.1.0"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-24.1.0.tgz#6708037d7602e5288ce877fd0103f329dc978361"
-  integrity sha1-ZwgDfXYC5SiM6Hf9AQPzKdyXg2E=
+eslint-plugin-jest@^24.3.0:
+  version "24.3.0"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-24.3.0.tgz#b8ce5499982a304caeea7392b7d50f63b8f333cd"
+  integrity sha1-uM5UmZgqMEyu6nOSt9UPY7jzM80=
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 

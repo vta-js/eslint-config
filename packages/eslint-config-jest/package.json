@@ -27,7 +27,7 @@
     "jest": "^26.0.0"
   },
   "dependencies": {
-    "eslint-plugin-jest": "^24.0.0"
+    "eslint-plugin-jest": "^24.3.0"
   },
   "peerDependencies": {
     "eslint": "^7.12.0",
