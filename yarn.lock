@@ -1472,28 +1472,29 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.6.0":
-  version "4.7.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.7.0.tgz#85c9bbda00c0cb604d3c241f7bc7fb171a2d3479"
-  integrity sha1-hcm72gDAy2BNPCQfe8f7FxotNHk=
+"@typescript-eslint/eslint-plugin@^4.22.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.22.1.tgz?cache=0&sync_timestamp=1620123309659&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-4.22.1.tgz#6bcdbaa4548553ab861b4e5f34936ead1349a543"
+  integrity sha1-a826pFSFU6uGG05fNJNurRNJpUM=
   dependencies:
-    "@typescript-eslint/experimental-utils" "4.7.0"
-    "@typescript-eslint/scope-manager" "4.7.0"
+    "@typescript-eslint/experimental-utils" "4.22.1"
+    "@typescript-eslint/scope-manager" "4.22.1"
     debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
+    lodash "^4.17.15"
     regexpp "^3.0.0"
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@4.7.0", "@typescript-eslint/experimental-utils@^4.0.1":
-  version "4.7.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-4.7.0.tgz#8d1058c38bec3d3bbd9c898a1c32318d80faf3c5"
-  integrity sha1-jRBYw4vsPTu9nImKHDIxjYD688U=
+"@typescript-eslint/experimental-utils@4.22.1", "@typescript-eslint/experimental-utils@^4.0.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/experimental-utils/download/@typescript-eslint/experimental-utils-4.22.1.tgz#3938a5c89b27dc9a39b5de63a62ab1623ab27497"
+  integrity sha1-OTilyJsn3Jo5td5jpiqxYjqydJc=
   dependencies:
     "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/scope-manager" "4.7.0"
-    "@typescript-eslint/types" "4.7.0"
-    "@typescript-eslint/typescript-estree" "4.7.0"
+    "@typescript-eslint/scope-manager" "4.22.1"
+    "@typescript-eslint/types" "4.22.1"
+    "@typescript-eslint/typescript-estree" "4.22.1"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
@@ -1507,6 +1508,14 @@
     "@typescript-eslint/typescript-estree" "4.7.0"
     debug "^4.1.1"
 
+"@typescript-eslint/scope-manager@4.22.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/scope-manager/download/@typescript-eslint/scope-manager-4.22.1.tgz?cache=0&sync_timestamp=1620123187609&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Fscope-manager%2Fdownload%2F%40typescript-eslint%2Fscope-manager-4.22.1.tgz#5bb357f94f9cd8b94e6be43dd637eb73b8f355b4"
+  integrity sha1-W7NX+U+c2LlOa+Q91jfrc7jzVbQ=
+  dependencies:
+    "@typescript-eslint/types" "4.22.1"
+    "@typescript-eslint/visitor-keys" "4.22.1"
+
 "@typescript-eslint/scope-manager@4.7.0":
   version "4.7.0"
   resolved "https://registry.npm.taobao.org/@typescript-eslint/scope-manager/download/@typescript-eslint/scope-manager-4.7.0.tgz#2115526085fb72723ccdc1eeae75dec7126220ed"
@@ -1515,10 +1524,28 @@
     "@typescript-eslint/types" "4.7.0"
     "@typescript-eslint/visitor-keys" "4.7.0"
 
+"@typescript-eslint/types@4.22.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/types/download/@typescript-eslint/types-4.22.1.tgz?cache=0&sync_timestamp=1620123186875&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Ftypes%2Fdownload%2F%40typescript-eslint%2Ftypes-4.22.1.tgz#bf99c6cec0b4a23d53a61894816927f2adad856a"
+  integrity sha1-v5nGzsC0oj1TphiUgWkn8q2thWo=
+
 "@typescript-eslint/types@4.7.0":
   version "4.7.0"
   resolved "https://registry.npm.taobao.org/@typescript-eslint/types/download/@typescript-eslint/types-4.7.0.tgz#5e95ef5c740f43d942542b35811f87b62fccca69"
   integrity sha1-XpXvXHQPQ9lCVCs1gR+Hti/Mymk=
+
+"@typescript-eslint/typescript-estree@4.22.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-4.22.1.tgz?cache=0&sync_timestamp=1620123188734&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Ftypescript-estree%2Fdownload%2F%40typescript-eslint%2Ftypescript-estree-4.22.1.tgz#dca379eead8cdfd4edc04805e83af6d148c164f9"
+  integrity sha1-3KN57q2M39TtwEgF6Dr20UjBZPk=
+  dependencies:
+    "@typescript-eslint/types" "4.22.1"
+    "@typescript-eslint/visitor-keys" "4.22.1"
+    debug "^4.1.1"
+    globby "^11.0.1"
+    is-glob "^4.0.1"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@4.7.0":
   version "4.7.0"
@@ -1533,6 +1560,14 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
+
+"@typescript-eslint/visitor-keys@4.22.1":
+  version "4.22.1"
+  resolved "https://registry.nlark.com/@typescript-eslint/visitor-keys/download/@typescript-eslint/visitor-keys-4.22.1.tgz?cache=0&sync_timestamp=1620123197571&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40typescript-eslint%2Fvisitor-keys%2Fdownload%2F%40typescript-eslint%2Fvisitor-keys-4.22.1.tgz#6045ae25a11662c671f90b3a403d682dfca0b7a6"
+  integrity sha1-YEWuJaEWYsZx+Qs6QD1oLfygt6Y=
+  dependencies:
+    "@typescript-eslint/types" "4.22.1"
+    eslint-visitor-keys "^2.0.0"
 
 "@typescript-eslint/visitor-keys@4.7.0":
   version "4.7.0"
