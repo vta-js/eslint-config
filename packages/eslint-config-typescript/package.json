@@ -24,7 +24,7 @@
   "author": "vta@yhbit.net",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.0.0"
+    "typescript": "^4.3.4"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.0",
@@ -33,6 +33,6 @@
   },
   "peerDependencies": {
     "eslint": "^7.12.0",
-    "typescript": "^4.0.0"
+    "typescript": "^4.3.4"
   }
 }
